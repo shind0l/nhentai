@@ -1,0 +1,37 @@
+{
+  "name": "nhentai-bot",
+  "version": "2.10.0",
+  "description": "Search, read, and download doujin book directly from your discord channel",
+  "main": "app.js",
+  "scripts": {
+    "start": "node .",
+    "lint": "eslint --ignore-path .gitignore \"**/*.js\"",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "dependencies": {
+    "sqlite3": "^5.0.0",
+    "discord.js": "12.2.0",
+    "axios": ">=0.21.1",
+    "nana-api": "^1.1.2",
+    "discord.js-light": "3.1.1",
+    "scathach-api": "0.0.7"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "author": "shind0l <d0l@tuta.io>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shind0l/nhentai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shind0l/nhentai/issues"
+  },
+  "homepage": "https://github.com/shind0l/nhentai/#readme",
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
